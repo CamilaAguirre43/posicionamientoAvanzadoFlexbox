@@ -154,30 +154,26 @@ footer p{
     main .caja{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
     }
-    main article /* div */{
+    main  .caja article /* div */{
         box-shadow: 0px 0px 10px rgba(100,100,100);
         max-width: 340px;
+        margin-top: 15px;
     }
     main article h4{
         display: block;
     }
 
 }
-@media (min-width:769px){
+@media (min-width:768px){
     main article{   
         max-width: none;
-        margin-right: 15px;
     }
 
-    main article:last-child{
-        margin-right: 0;
-    }
-
-    main .contenedor{
+    main .caja{
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 }
